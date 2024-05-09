@@ -29,7 +29,7 @@ const Signin = () => {
 					</div>
 					<div>
 						<p>Diploma arka yüzünde QR Kod altında görünen aktivasyon kodunu kutuya yazarak sorgulayabilirsiniz.</p>
-						<form className='flex  gap-5 items-center w-full mb-2  select-none ' onSubmit={handleSubmit}>
+						<form className='flex flex-col lg:flex-row gap-5 items-center w-full mb-2  select-none ' onSubmit={handleSubmit}>
 							<div className='flex gap-3 items-center'>
 								<span className='ml-3 text-[14px] text-[500] text-right'>Aktivasyon No : </span>
 								<input
@@ -38,7 +38,7 @@ const Signin = () => {
 									className='active:border-blue-500 focus:border-blue-500  active:border-[2px] focus:border-[2px]  outline-none px-3 py-1.5 w-[200px] h-full rounded-[4px] border-[1px]	 border-[#c5c5c580] text-[15px] font-bold opacity-85' />
 								
 							</div>
-							<button type="submit" className='w-[200px] h-full border-0 outline-none bg-[#00C292] text-white py-2 cursor-pointer transition-all duration-[400ms] hover:bg-[#328e77] active:shadow active:shadow-green-500/50 '>Sorgula</button>
+							<button type="submit" className='w-full lg:w-[200px] h-full border-0 outline-none bg-[#00C292] text-white py-2 cursor-pointer transition-colors duration-[400ms] hover:bg-[#328e77] active:shadow active:shadow-green-500/50 '>Sorgula</button>
 						</form>
 					</div>
 				</div>
