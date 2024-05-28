@@ -9,7 +9,7 @@ const Router = createBrowserRouter([
 		element: <Redirect />,
 	},
 	{
-		path: "paper/diploma/Diploma/NEU-OI-164915",
+		path: "paper/diploma/Diploma/NEU-YB-164915",
 		element: <Main />,
 	},
 	{
