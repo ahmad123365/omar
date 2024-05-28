@@ -7,10 +7,10 @@ import { useNavigate } from 'react-router';
 
 const Signin = () => {
 	const [value,setValue] = useState("")
-	const correct = "NEU-OI-164915"
+	const correct = "NEU-YB-164915"
 	const navigate = useNavigate()
 	const handleSubmit = () => {
-		if (correct === value) navigate("Diploma/NEU-OI-164915")
+		if (correct === value) navigate("Diploma/NEU-YB-164915")
 		else navigate("")
 		
 	}
